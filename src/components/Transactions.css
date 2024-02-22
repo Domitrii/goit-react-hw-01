@@ -1,0 +1,21 @@
+.list {
+    color: black;
+}
+
+.transaction-table {
+    border-collapse: collapse;
+}
+
+.types-more{
+    background-color: rgb(60, 60, 60);
+    color: #fff;
+}
+
+.item{
+    padding: 0 64px;
+    border: 1px solid #000;
+}
+
+.back-not-white{
+    background-color: #e8e8e8;
+}
