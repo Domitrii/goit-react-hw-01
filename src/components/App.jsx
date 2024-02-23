@@ -1,10 +1,10 @@
 import './App.css'
-import user from './UserData'
-import CreateProfile from './Profile';
-import FriendPrint from './FriendList';
-import friends from './FriendObj';
-import transactions from './TransactionObj';
-import TransactionHistory from './TransactionHistory';
+import user from './Profile/UserData'
+import CreateProfile from './Profile/Profile';
+import FriendList from './FriendList/FriendList';
+import friends from './FriendList/FriendObj';
+import transactions from './TransactionHistory/TransactionObj';
+import TransactionHistory from './TransactionHistory/TransactionHistory';
 
 function App() {
   const {username, tag, location, avatar, stats} = user
@@ -17,8 +17,8 @@ function App() {
   avatar={avatar}
   stats={stats}
   />
-  <FriendPrint
-  list={friends}
+  <FriendList
+  friends={friends}
   />
   <TransactionHistory 
   list={transactions}

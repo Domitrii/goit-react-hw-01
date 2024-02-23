@@ -2,11 +2,11 @@
     color: black;
 }
 
-.transaction-table {
+.transactionTable {
     border-collapse: collapse;
 }
 
-.types-more{
+.typesMore{
     background-color: rgb(60, 60, 60);
     color: #fff;
 }
@@ -16,6 +16,6 @@
     border: 1px solid #000;
 }
 
-.back-not-white{
+.backNotWhite{
     background-color: #e8e8e8;
 }
