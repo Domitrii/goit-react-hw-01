@@ -1,16 +1,16 @@
 import './App.css'
-import user from './Profile/UserData'
-import CreateProfile from './Profile/Profile';
+import user from './UserData.json'
+import Profile from './Profile/Profile';
 import FriendList from './FriendList/FriendList';
-import friends from './FriendList/FriendObj';
-import transactions from './TransactionHistory/TransactionObj';
+import friends from './friends.json';
+import transactions from './transactions.json';
 import TransactionHistory from './TransactionHistory/TransactionHistory';
 
 function App() {
   const {username, tag, location, avatar, stats} = user
   return (
   <>
-  <CreateProfile 
+  <Profile 
   username={username}
   tag={tag}
   location={location}

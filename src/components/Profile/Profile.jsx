@@ -1,6 +1,6 @@
 import css from './Profile.module.css'
 
-function CreateProfile ({username, tag, location, avatar, stats }) {
+function Profile ({username, tag, location, avatar, stats }) {
     return (
         <div className={css.container}>
             <div className={css.firstBlockCont}>
@@ -22,4 +22,4 @@ function CreateProfile ({username, tag, location, avatar, stats }) {
     )
 }
 
-export default CreateProfile
+export default Profile
