@@ -1,7 +1,5 @@
 import css from './Profile.module.css'
 
-console.log(css)
-
 function CreateProfile ({username, tag, location, avatar, stats }) {
     return (
         <div className={css.container}>
